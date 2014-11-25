@@ -1,0 +1,12 @@
+buildscript {
+  repositories {
+    mavenLocal()
+    jcenter()
+  }
+
+  dependencies {
+    classpath 'com.github.rexyotta:gradle_vertx_plugin:0.1'
+  }
+}
+
+apply plugin: 'gradle-plugin-vertx'
